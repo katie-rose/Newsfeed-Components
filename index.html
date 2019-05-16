@@ -1,15 +1,15 @@
-<!-- Do not add anything to the HTML until Part 3 of the project -->
 <!DOCTYPE html>
 <html>
   <head>
     <title>Lambda School Newsfeed</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./CSS/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="./Menu/Menu.js" async></script>
     <script src="./Article/Article.js" async></script>
   </head>
   <body>
     <div class="header">
-      <img class="menu-button" src="./assets/menu.png"/>
+      <img class="menu-button" id="play" src="./assets/menu.png"/>
       <h1>Lambda School Newsfeed</h1>
     </div>
     <div class="menu">
@@ -109,6 +109,18 @@
           hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
           hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
           hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
+        <span class='expandButton'></span>
+      </div>
+      <div class="article">
+        <h2>You'll never believe what happened next!</h2>
+        <p class="date">Nov 7th, 2017</p>
+        <p>Yabba dabba do. Yabba dabba do. Yabba dabba do. Yabba dabba do. Yabba dabba do. Yabba dabba do.Yabba dabba do. Yabba dabba do.Yabba dabba do. Yabba dabba do.Yabba dabba do. Yabba dabba do. </p>
+        <span class='expandButton'></span>
+      </div>
+      <div class="article">
+        <h2>An article about nothing</h2>
+        <p class="date">Nov 7th, 2017</p>
+        <p>Nothing was born in a small village.</p>
         <span class='expandButton'></span>
       </div>
     </div>
